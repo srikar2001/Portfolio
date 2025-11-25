@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sai Srikar Portfolio</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/3c492bb7b1.js" crossorigin="anonymous"></script>
+  <!-- AOS library for scroll animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">Sai&nbsp;Srikar</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section id="home" class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-text" data-aos="fade-right">
+        <h1>Hello, I'm <span>Sai&nbsp;Srikar</span></h1>
+        <h2>Data Engineer &amp; Cloud Enthusiast</h2>
+        <p>I build scalable data pipelines and analytics platforms that power business decisions in real‑time.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+        </div>
+      </div>
+      <div class="hero-graphic" data-aos="fade-left">
+        <!-- Profile picture -->
+        <img src="avatar.jpg" alt="Profile picture" class="avatar-image" />
+      </div>
+    </div>
+    <!-- background shapes -->
+    <div class="glow-circle glow-1"></div>
+    <div class="glow-circle glow-2"></div>
+  </section>
+
+  <!-- About section -->
+  <section id="about" class="section dark-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title"><span>About</span> Me</h2>
+      <p class="section-description">
+        I am a data engineer with over four years of experience building and managing data platforms across retail,
+        enterprise and academic environments. My expertise spans Python, SQL, PySpark, Airflow, Kafka and cloud services
+        on AWS and Azure. I love transforming raw data into actionable insights and cutting down pipeline runtimes.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">Technical <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming &amp; Languages</h3>
+          <ul class="skill-list">
+            <li><span>Python</span><div class="bar"><div class="bar-fill" style="width:90%"></div></div></li>
+            <li><span>SQL</span><div class="bar"><div class="bar-fill" style="width:85%"></div></div></li>
+            <li><span>Java</span><div class="bar"><div class="bar-fill" style="width:70%"></div></div></li>
+            <li><span>R</span><div class="bar"><div class="bar-fill" style="width:60%"></div></div></li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <h3>Data Engineering &amp; Cloud</h3>
+          <ul class="skill-list">
+            <li><span>Apache Spark/PySpark</span><div class="bar"><div class="bar-fill" style="width:90%"></div></div></li>
+            <li><span>Airflow &amp; Kafka</span><div class="bar"><div class="bar-fill" style="width:85%"></div></div></li>
+            <li><span>AWS &amp; Azure</span><div class="bar"><div class="bar-fill" style="width:80%"></div></div></li>
+            <li><span>Databricks &amp; ETL</span><div class="bar"><div class="bar-fill" style="width:75%"></div></div></li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Analytics &amp; Tools</h3>
+          <ul class="skill-list">
+            <li><span>Pandas &amp; NumPy</span><div class="bar"><div class="bar-fill" style="width:90%"></div></div></li>
+            <li><span>Power BI &amp; Tableau</span><div class="bar"><div class="bar-fill" style="width:80%"></div></div></li>
+            <li><span>Looker &amp; Streamlit</span><div class="bar"><div class="bar-fill" style="width:75%"></div></div></li>
+            <li><span>Machine Learning</span><div class="bar"><div class="bar-fill" style="width:70%"></div></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience section -->
+  <section id="experience" class="section dark-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">Work <span>Experience</span></h2>
+      <div class="experience-grid">
+        <div class="exp-item">
+          <h3>Data Engineer <span>@ Lowe’s</span></h3>
+          <small>Jan 2025 – Present &nbsp;|&nbsp; Charlotte, NC</small>
+          <ul>
+            <li>Built PySpark and AWS Glue pipelines processing 3TB+ data daily.</li>
+            <li>Designed event‑driven ingestion from Kafka &amp; Kinesis for near real‑time analytics.</li>
+            <li>Created dimensional models in Snowflake &amp; Redshift, reducing refresh times by 45%.</li>
+            <li>Implemented Deequ quality checks, cutting incident tickets by 38%.</li>
+          </ul>
+        </div>
+        <div class="exp-item">
+          <h3>Data Engineering Graduate Assistant <span>@ UNC Charlotte</span></h3>
+          <small>Sep 2023 – Jan 2025 &nbsp;|&nbsp; Charlotte, NC</small>
+          <ul>
+            <li>Automated data preprocessing scripts, reducing manual work by 50%.</li>
+            <li>Integrated model outputs into advising datasets improving graduation rates by 2.8%.</li>
+            <li>Designed Tableau dashboards for institutional leaders to track retention patterns.</li>
+            <li>Merged multi‑source academic data, enabling stable modeling datasets.</li>
+          </ul>
+        </div>
+        <div class="exp-item">
+          <h3>Data Engineer <span>@ Tech Mahindra</span></h3>
+          <small>Jul 2022 – Aug 2023 &nbsp;|&nbsp; Hyderabad, IN</small>
+          <ul>
+            <li>Built an AWS S3 data lake with IAM policies for secure analytics.</li>
+            <li>Developed Airflow DAGs for Oracle/MySQL ingestion with 99.8% SLA.</li>
+            <li>Implemented Spark streaming from Kafka delivering aggregates in minutes.</li>
+            <li>Optimized Spark SQL, reducing runtimes by 30% and cost by 20%.</li>
+          </ul>
+        </div>
+        <div class="exp-item">
+          <h3>Data Engineer <span>@ Capgemini</span></h3>
+          <small>Jun 2021 – Jul 2022 &nbsp;|&nbsp; Hyderabad, IN</small>
+          <ul>
+            <li>Designed Azure Data Lake zones separating raw, processed &amp; curated data.</li>
+            <li>Developed data factory pipelines ingesting 2.5 TB per day.</li>
+            <li>Built incremental PySpark logic for hourly data refreshes.</li>
+            <li>Centralized logs in Splunk, improving MTTR by 28%.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">Highlighted <span>Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Customer Retention &amp; CLTV Modeling</h3>
+            <p>Engineered a Snowflake‑based pipeline that processed 12K+ customer records,
+              enabling CLTV prediction and churn segmentation using XGBoost and K‑Means.
+              Designed dashboards to surface churn drivers and reduce customer churn by 9.6%.</p>
+          </div>
+        </div>
+        <!-- Additional project cards can be added here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Education section -->
+  <section id="education" class="section dark-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">Education &amp; <span>Certifications</span></h2>
+      <div class="education-grid">
+        <div class="education-item">
+          <h3>University of North Carolina at Charlotte</h3>
+          <p>Master of Science in Data Science and Business Analytics</p>
+        </div>
+        <div class="education-item">
+          <h3>Anurag University</h3>
+          <p>Bachelor of Technology in Artificial Intelligence</p>
+        </div>
+      </div>
+      <h3 class="subheading">Certifications</h3>
+      <ul class="cert-list">
+        <li>AWS Certified Data Engineer – Associate (DEA‑C01) – In progress</li>
+        <li>Microsoft Azure Data Engineer Associate (DP‑203) – In progress</li>
+        <li>Databricks Certified Data Engineer Associate – In progress</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="container contact-container">
+      <h2 class="section-title">Get in <span>Touch</span></h2>
+      <p class="section-description">Have a project or opportunity in mind? Let's connect and build something impactful.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Charlotte, NC</li>
+            <li><i class="fas fa-phone"></i> 737‑240‑1278</li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:srikarvudaru1@gmail.com">srikarvudaru1@gmail.com</a></li>
+            <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/saisrikar12/" target="_blank">LinkedIn</a></li>
+            <li><i class="fab fa-github"></i> <a href="https://github.com/srikar2001" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <form action="mailto:srikarvudaru1@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Sai&nbsp;Srikar. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // initialize AOS animations
+    AOS.init({ duration: 1000, once: true });
+    // update year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
